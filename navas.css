@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
+
+body {
+	font-family: "Open Sans";
+}
+
+.header-section {
+	height: 226px;
+	background-color: #fff;
+}
+
+.navbar-section {
+	 height: 75px;
+	 background-color: #4d4a4d;
+	 border-bottom: 4px solid #ff9121;
+}
+
+.offers-section {
+	height: 548px;
+	background-color: #2d2d2d;
+	border-bottom: 4px solid #ff9121;
+}
+
+.tours-section {
+	padding: 20px 0;
+}
+
+.feedbacks-section {
+	height: 214px;
+	background-color: #ff9121;
+}
+
+.address-section {
+	padding: 61px 0 84px 0;
+	color: #2d2d2d;
+	font-size: 24px;
+	background-color: #eceaea;
+}
+
+.address-section span {
+	display: block;
+	text-align: center;
+}
+
+.address-section ul {
+	text-align: center;
+}
+
+.address-section li {
+	display: inline-block;
+	cursor: pointer;
+	background: url("img/social-btns-sprite.png") no-repeat;
+	width: 90px;
+	height: 88px;
+}
+
+.address-section li.fb {
+	background-position: 0 0;
+}
+
+.address-section li.tw {
+	background-position: -93px 0;
+}
+
+.address-section li.linkedin {
+	background-position: -186px 0;
+}
+
+.address-section li.instagram {
+	background-position: -279px 0;
+}
+
+.address-section li.vk {
+	background-position: -372px 0;
+}
+
+.wrapper {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
